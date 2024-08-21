@@ -11,10 +11,6 @@ if (umur > 5) {
 
 
 //Soal no 2
-const usiaSim = 17;
-const usiaAnda = 20;
-
-if (usiaAnda >= usiaSim) {
   console.log("Anda sudah berhak mendapatkan SIM");
 } else {
   console.log("Anda belum berhak mendapatkan SIM");
@@ -68,12 +64,12 @@ console.log(`Total pembelian setelah diskon adalah ${totalSetelahDiskon}`);
 
 
 // Soal no 6
-const usiaPengguna = 18;
+const usiaPengguna = ;15 dww
 
 if (usiaPengguna >= 18) {
   console.log("Registrasi berhasil");
 } else {
-  console.log("Registrasi gagal");
+  console.log("Registra si gagal");
 }
 // batas
 wdd
