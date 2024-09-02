@@ -17,7 +17,7 @@ const obj = {
     alamat: {
         kota: "pangkalpinang",
     },
-};
+}; 
 console.log(obj.key);
 console.log(obj["key"])
 
@@ -49,4 +49,4 @@ class book{
     getDetails() {
         return `This is ${this.tittle}, a ${this.author}.`;
     }   
-}
+} 

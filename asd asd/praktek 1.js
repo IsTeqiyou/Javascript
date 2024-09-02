@@ -2,7 +2,7 @@
 
 let hari = 'sabtu'
 
-switch (hari) {
+switch (hari) { 
     case 'senin':
         console.log("Weekday")
         break;
@@ -10,7 +10,7 @@ switch (hari) {
         console.log("Weekday")
         break;
     case 'rabu':
-        console.log("Weekday")
+        console.log("Weekday")  
         break;
     case 'kamis':
         console.log("Weekday")

@@ -14,15 +14,20 @@ class Orang {
   }
   
   // Tulis kode kamu di bawah ini
-  class Pelajar extends Orang {
+  class Pelajar extends Orang {cd
     constructor(nama, umur, namaSekolah) {
       super(nama, umur);
       this.namaSekolah = namaSekolah;
     }
   
+  /**
+   * Method untuk mengembalikan string yang berisi nama pelajar 
+   * dan nama sekolah tempat pelajar tersebut belajar
+   * @return {string} - string yang berisi nama pelajar dan nama sekolah
+   */
   belajar() {
-     return `${this.nama} belajar di ${this.namaSekolah}`;  
-      }  
+    return `${this.nama} belajar di ${this.namaSekolah}`;  
+  }
   }
   
   let user = new Pelajar("Terra", 17, "Skilvul") 
@@ -52,7 +57,7 @@ class Harimau extends Hewan {
         this.model = model;
     }
     
-    start() {
+    start() { t
         return `${this.model} is brand to ${this.brand}`
         
     }
@@ -61,7 +66,7 @@ class Harimau extends Hewan {
   let avanza = new Car("Avanza", "Honda")
   console.log(avanza.start());
   
-
+// super ama extend
   // Praktek 2
 
   class Shape {

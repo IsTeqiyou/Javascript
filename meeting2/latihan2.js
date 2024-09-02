@@ -1,7 +1,6 @@
-let tanpaNilai;
+let tanpaNilai; 
 console.log(tanpaNilai);
-alert(tanpaNilai)
-
+alert(tanpaNilai)  
 let nama = "Taqi";
 let umur = 15;
 let tempatTinggal = "Babel";
@@ -18,4 +17,5 @@ let alas = 5;
 let tinggi = 7;
 let luasSegitiga = 0.5 * alas * tinggi;
 console.log("Luas segitiga adalah: " + luasSegitiga);
-alert(luasSegitiga)
+alert(luasSegitiga) 
+//
