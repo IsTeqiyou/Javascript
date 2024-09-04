@@ -92,6 +92,7 @@ class Harimau extends Hewan {
         this.nama = name;
     }
 
+
     introduce() {
         return "hi my name is"
     }
@@ -108,6 +109,7 @@ class Harimau extends Hewan {
   }
 
   class Manager extends Employee {
+
     introduce() {
         return "hi my name is taqi and i am an student and i manage a team"
     }
@@ -121,5 +123,3 @@ class Harimau extends Hewan {
 
   let personal3 = new Manager();
   console.log(personal3.introduce())
-
-
