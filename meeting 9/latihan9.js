@@ -309,7 +309,7 @@ class Manajer extends Karyawan {
 }
 
 // Buat instance dari kelas Manajer
-const manajer = new Manajer("John Doe", 10000000);
+const manajer = new Manajer("John Doe", 1000000);
 
 // Akses dan modifikasi data menggunakan getter dan setter
 console.log(`Nama: ${manajer.getNama()}`);

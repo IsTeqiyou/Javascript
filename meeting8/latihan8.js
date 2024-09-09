@@ -36,6 +36,7 @@ class Orang {
   // harimau //
   // Buat kode kamu di bawah ini
 class Harimau extends Hewan {
+
   constructor(nama) {
     super(nama);
   }
@@ -85,8 +86,8 @@ class Harimau extends Hewan {
   let shape = new Rectangle();
   console.log(shape.draw());
 
-  // Praktek 3
-
+  // Praktek 3 
+  
   class Person {
     constructor(name) {
         this.nama = name;
