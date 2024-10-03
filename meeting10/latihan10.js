@@ -73,7 +73,7 @@ function luasPersegi(s) {
     } else {
       return "Stock insufficient for " + requestedQuantity + ". Current stock: " + item;
     }
-  }
+  } 
   
   var stock = checkStock(50, 60);
   console.log(stock);
@@ -101,6 +101,8 @@ function luasPersegi(s) {
   
   //soal 4 start
   
+
+
   function calculateTax(price, location) {
     if (location == "Jakarta") {
       return price * 0.1;
@@ -132,7 +134,7 @@ function luasPersegi(s) {
   
   const persegiPanjang = (panjang, lebar) => panjang * lebar
   
-  console.log(persegiPanjang(10, 5));
+  console.log(persegiPanjang(10, 5)); 
   
   const persegi = (sisi) => {
     return 4 * sisi

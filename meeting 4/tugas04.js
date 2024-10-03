@@ -1,7 +1,7 @@
      //soal 1 mulai
-var nilai = 65;
-var kehadiran = 10;
-var totalPertemuan = 15;
+var nilai = 57;
+var kehadiran = 60;
+var totalPertemuan = 100;
 var lulus = (kehadiran / totalPertemuan) * 100;
 
 if (nilai >= 85) {
@@ -29,7 +29,7 @@ if (nilai >= 85) {
 
 //soal 2 mulai
 var pendaftaran = false
-var pembayaran = false
+var pembayaran = true
 
 if (pendaftaran ===  true){
     if (pembayaran === true){
@@ -44,4 +44,3 @@ if (pendaftaran ===  true){
 
 
 //soal 2 selesai
-wd
