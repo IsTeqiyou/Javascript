@@ -1,8 +1,6 @@
 // main.js
-
-const kelompokkanBilangan = require('./exam');
+import { kelompokkanBilangan } from './exam.js';
 
 for (let i = 1; i <= 20; i++) {
-    const kategori = kelompokkanBilangan(i);
-    console.log(`Bilangan ${i} adalah ${kategori}.`);
+  console.log(`Bilangan ${i} adalah ${kelompokkanBilangan(i)}`);
 }
