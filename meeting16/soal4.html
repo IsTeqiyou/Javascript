@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mengubah Warna Teks</title>
+</head>
+<body>
+    <div id="colorBox">Ini adalah teks yang akan diubah warnanya.</div>
+    <script src="script.js"></script>
+
+    <script> 
+    
+        const colorBox = document.getElementById('colorBox');
+        
+        const warna = prompt('Masukkan warna yang ingin Anda terapkan pada teks (red, blue, green):');
+        
+        if (warna === 'red' || warna === 'blue' || warna === 'green') {
+            colorBox.style.color = warna;
+        } else {
+            alert('Warna tidak valid. Silakan masukkan warna yang benar.');}
+            
+        </script>
+</body>
+</html>

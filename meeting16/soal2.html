@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Manipulasi Konten</title>
+</head>
+<body>
+    <div class="konten">Teks awal</div>
+    <script src="script.js"></script>
+    <script>
+        // script.js
+        const konten = document.querySelector('.konten');
+        
+        // Menggunakan innerHTML
+        konten.innerHTML = '<strong>Teks baru</strong>';
+        console.log(konten.innerHTML);
+        
+        // Menggunakan innerText
+        konten.innerText = 'Teks baru';
+        console.log(konten.innerText);
+        
+        // Menggunakan textContent
+        konten.textContent = 'Teks baru';
+        console.log(konten.textContent);</script>
+</body>
+</html>

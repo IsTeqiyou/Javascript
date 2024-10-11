@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Menambahkan & Menghapus Elemen</title>
+</head>
+<body>
+    <div id="konten"></div>
+    <script src="script.js"></script>
+    
+    <script>
+        const daftar = document.createElement('ul');
+        const arrayItem = ['Item 1', 'Item 2', 'Item 3'];
+        
+        for (let i = 0; i < arrayItem.length; i++) {
+            const item = document.createElement('li');
+            item.textContent = arrayItem[i];
+            daftar.appendChild(item);
+        }
+        
+        const konten = document.getElementById('konten');
+        konten.appendChild(daftar);
+        
+        // Implementasi Penghapusan
+        const elemenPertama = daftar.firstElementChild;
+        daftar.removeChild(elemenPertama);
+        
+        </script>
+</body>
+</html>
